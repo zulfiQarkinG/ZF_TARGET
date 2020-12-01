@@ -4,8 +4,8 @@
         
         #############################################
         #                                           #
-        #    Facebook BruteForce, by Rana Aahil     #
-        #    Facebook Contact:       Aahil          #
+        #    Facebook BruteForce, by Zulfiqar       #
+        #    Facebook Contact:       MaGsi          #
         #                                           #
         #############################################
 
@@ -24,7 +24,7 @@ except ModuleNotFoundError:
 time.sleep(0.5)
 user = raw_input('[💀] Target Username/ID/Email >>?? ')
 time.sleep(0.8)
-wrdlstFileName = raw_input('\n[💀] Wordlist Type pk.txt >> ')
+wrdlstFileName = raw_input('\n[💀] Wordlist Type zf.txt >> ')
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
